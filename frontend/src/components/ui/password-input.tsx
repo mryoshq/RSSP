@@ -157,6 +157,6 @@ function getColorPalette(percent: number) {
     case percent < 66:
       return { label: "Medium", colorPalette: "orange" }
     default:
-      return { label: "High", colorPalette: "green" }
+      return { label: "High", colorPalette: "gray" }
   }
 }
